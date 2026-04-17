@@ -1,0 +1,163 @@
+bro i want the pdf of these questions with answers also I. General Questions
+What is the title of your project and what problem does it solve?
+
+Why did you choose this topic?
+
+What is a thermal image and how is it useful in medical diagnosis?
+
+What is the difference between a normal image and a thermal image?
+
+What is a CNN and why is it suitable for image classification?
+
+II. Dataset & Preprocessing
+What is the source of your dataset?
+
+What types of images are included in the dataset?
+
+How many classes are there in your dataset?
+
+What kind of preprocessing was applied to the images?
+
+How did you split the dataset into train/val/test sets?
+
+Why did you use ImageDataGenerator in Keras?
+
+What image size was used and why?
+
+III. Model Architecture & Training
+Which deep learning model did you use and why?
+
+What is MobileNetV2? Why did you choose it over other models?
+
+How many layers are trainable in your final model?
+
+What is the loss function and optimizer used?
+
+What are the key hyperparameters you tuned (epochs, learning rate, batch size)?
+
+What regularization techniques were applied?
+
+How did you handle class imbalance?
+
+How did you evaluate model performance?
+
+IV. Prediction Logic
+How do you make predictions with your trained model?
+
+How do you interpret the confidence score returned by the model?
+
+What is the threshold you used for classifying diabetic vs non-diabetic?
+
+What happens if an image is invalid or missing during prediction?
+
+V. Feature Extraction & Engineering
+What thermal features did you extract (mean, max, contrast, etc.)?
+
+Why are features like contrast, homogeneity, and energy important?
+
+How did you calculate the circulation score?
+
+How did you use feature extraction in the overall pipeline?
+
+VI. Deployment & Web App
+How did you deploy the model in the web application?
+
+What technologies did you use in the web app (Flask, HTML, CSS, etc.)?
+
+How does the user interact with the app?
+
+What happens after the user uploads the images?
+
+Where are uploaded images stored temporarily?
+
+What is the use of uploads/, static/, and templates/ folders?
+
+What are the possible errors the user might face during upload or prediction?
+
+VII. Output & Interpretation
+What is shown in the result after prediction?
+
+What are CNN feature maps and how do they help?
+
+What exercise recommendations are generated and how are they determined?
+
+What does the prediction say about both feet individually?
+
+VIII. Performance & Evaluation
+What is the accuracy of your model?
+
+What evaluation metrics did you use (precision, recall, F1-score)?
+
+Did you perform cross-validation?
+
+Which fold gave the best result?
+
+Any overfitting observed? If yes, how did you prevent it?
+
+IX. Challenges & Limitations
+What were the main challenges you faced?
+
+Was dataset collection difficult?
+
+Any issues with image quality, labels, or data cleaning?
+
+How did you handle missing values or corrupt images?
+
+X. Future Scope & Enhancements
+What enhancements can be made in the future?
+
+Can this model be extended for ulcer detection or severity prediction?
+
+How can you improve the dataset or model performance?
+
+Can this be deployed as a mobile app?
+Can you briefly explain the objective of your project?
+What is the significance of using thermal images for classifying diabetic vs. nondiabetic conditions?
+Why did you choose MobileNetV2 as the base model for your CNN?
+What are the key differences between MobileNetV2 and other CNN architectures like ResNet or VGG?
+How does the depthwise separable convolution in MobileNetV2 improve performance?
+Can you explain the architecture of your custom head added to MobileNetV2?
+What is the role of batch normalization in your model, and why did you include it?
+How did you decide on the number of epochs (120) for training your model?
+What is the purpose of using K-fold cross-validation in your project, and why did you choose 5 folds?
+How did you handle class imbalance in your dataset, and what was the class weight adjustment factor?
+What data augmentation techniques did you apply, and how do they help improve model performance?
+Can you explain the custom contrast adjustment function you implemented?
+Why did you use a batch size of 16, and how does it affect training?
+What is the role of dropout layers in your model, and how did you choose the dropout rates (0.3 and 0.2)?
+How did you split your dataset into train, validation, and test sets?
+What preprocessing steps did you apply to the thermal images before feeding them into the model?
+How did you evaluate the performance of your model, and what metric did you focus on (e.g., accuracy)?
+What was the average test accuracy you achieved, and were you able to reach your target (98%)?
+Can you explain the fine-tuning process you used (three stages) and the rationale behind it?
+Why did you choose different learning rates (1e-4, 5e-5, 2e-5) for the training stages?
+What is the purpose of the ReduceLROnPlateau callback, and how did you configure it?
+How does EarlyStopping work, and why did you set the patience to 10?
+What challenges did you face during the implementation of your project?
+How did you address the compatibility issues with TensorFlow 2.18.0 and Python 3.12?
+What was the error AttributeError: 'str' object has no attribute 'name', and how did you resolve it?
+Why did you remove advanced techniques like Mixup and Monte Carlo Dropout in the final version?
+How did data augmentation impact the model’s ability to generalize to unseen data?
+What is the total number of parameters in your model, and how are they split between trainable and non-trainable?
+How did you ensure reproducibility in your training process?
+What hardware did you use for training, and how did it affect your results?
+Can you explain the role of L2 regularization in your model, and why did you set it to 0.005?
+How would you interpret the validation accuracy compared to training accuracy during your experiments?
+What would you do if the model overfits to the training data?
+How did you handle cases where images failed to load (e.g., cv2.imread returning None)?
+What is the significance of shuffling the data in K-fold cross-validation?
+How would you improve the model if you had access to a larger dataset?
+What alternative CNN architectures could you explore for this task?
+How would you handle missing or corrupted images in your dataset?
+What are the limitations of using MobileNetV2 for this classification task?
+How did you decide on the image size (224x224) for input to the model?
+Can you explain the impact of class weights on the model’s performance?
+What would you do if the test accuracy is consistently below your target (98%)?
+How would you present the results of your project to a non-technical audience?
+What future improvements would you suggest for this project?
+How could you use transfer learning more effectively in this context?
+What metrics other than accuracy could you use to evaluate your model (e.g., precision, recall, F1-score)?
+How would you handle a multi-class classification problem with this approach?
+What role did logging play in debugging your project?
+How would you deploy this model in a real-world application?
+What lessons did you learn from this project that you would apply to future work?

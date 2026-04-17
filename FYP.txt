@@ -1,0 +1,25 @@
+C:/Users/harsh/FYP/
+│
+├── data/                                
+│   ├── diabetic_dataset/                
+│   ├── non_diabetic_dataset/            
+│   └── split_data/                      
+│       ├── train/                       
+│       ├── test/                        
+│       └── val/│       
+│
+├── models/
+│   ├── cnn_model/
+│   │   ├── model.keras
+│   │   
+│
+├── src/
+        1.data preprocessing.py
+        2.data splitting.py
+        3.train model.py
+        4.classification report.py
+        5.predict.py
+│   ├── streamlit_app/
+│   │   ├── uploads/
+│   │   │   └── (temporary files, e.g., left_DM009_F_L.png)
+│   │   └── app.py
